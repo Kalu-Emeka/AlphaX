@@ -64,31 +64,9 @@ section {
     width: 100px;
     cursor: pointer;
 }
-
-.header ul {
-    float: right;
-    margin-right: 20px;
-}
-
-.header ul li {
-    display: inline-block;
-    line-height: 80px;
-    margin: 0 5px;
-}
-
-.header ul li a {
+.header h2 {
     color: white;
-    font-size: 16px;
-    padding: 7px 13px;
-    border-radius: 3px;
-    text-transform: uppercase;
 }
-
-a.active,a:hover{
-    background: #c7c8c9;
-    transition: .5s;
-}
-
 
 
 .home {
@@ -579,6 +557,10 @@ input[type=text], select, textarea {
             font-size: 20px;
 
         }
+        .header h2 {
+            display: none;
+        }
+        
 
         .container {
             align-items: center;
