@@ -174,7 +174,7 @@ a.active,a:hover{
 
 .coming{
     color: #FFFFFF;
-    background-image: url("./Images/Backgroundimage.png");
+    background-image: url("../Images/Backgroundimage.png");
     padding: 30px;
     background-position: center;
     background-size: cover;
