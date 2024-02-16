@@ -557,11 +557,6 @@ input[type=text], select, textarea {
             font-size: 20px;
 
         }
-        .header h2 {
-            display: none;
-        }
-        
-
         .container {
             align-items: center;
             display: flex;
@@ -713,6 +708,9 @@ input[type=text], select, textarea {
         background: #FFFFFF;
         display: flex;
         flex-direction: column;
+    }
+    .header h2 {
+        display: none;
     }
 
    
